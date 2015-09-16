@@ -1,0 +1,11 @@
+<div class="follow">
+		<ul>
+			<li class="txt">Follow MovieWeb:</li>
+			<li><a href="/rss" class="rs" title="MovieWeb RSS Feeds">RSS Feeds</a></li>
+			<li><a href="http://www.facebook.com/MovieWeb" target="_blank" class="fb" title="MovieWeb on Facebook">MovieWeb on Facebook</a></li>
+			<li><a href="http://twitter.com/movieweb" target="_blank" class="tw" title="MovieWeb on Twitter">MovieWeb on Twitter</a></li>
+			<li><a href="http://www.youtube.com/movieweb" target="_blank" class="yt" title="MovieWeb on Youtube">MovieWeb on Youtube</a></li>
+			<li><a href="http://movieweb.tumblr.com" target="_blank" class="tb" title="MovieWeb on Tumblr">MovieWeb on Tumblr</a></li>
+		</ul>
+	</div>
+</div>

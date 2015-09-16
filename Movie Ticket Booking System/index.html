@@ -1,0 +1,297 @@
+<!doctype html>
+
+<html>
+  
+  <head>
+    <title>HouseFull</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="js/webbased.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>		
+	<script type="text/javascript" src="js/scripts.js"></script>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        <!--padding-top: 20px;-->
+      }
+	  .idk {
+	  background-color:#f1c40f;
+	  }
+	  .megacont {
+	  }
+	  .container {
+		margin: 0 auto;
+	  }
+      .footer {
+        border-top: 1px solid #eee;
+        margin-top: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+		padding:10px;
+		background-color: #222;
+		color: #FFF;
+      }
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        text-align: center;
+        background-color: transparent;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+      /* Customize the nav-justified links to be fill the entire space of the .navbar */
+      .nav-justified {
+        background-color: #eee;
+        border-radius: 5px;
+      <!--  border: 1px solid #ccc;  -->
+      }
+      .nav-justified > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: #777;
+        font-weight: bold;
+        text-align: center;
+        border-bottom: 1px solid #d5d5d5;
+        background-color: #e5e5e5;
+        /* Old browsers */
+        background-repeat: repeat-x;
+        /* Repeat the gradient */
+        background-image: -moz-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+        /* FF3.6+ */
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #e5e5e5));
+        /* Chrome,Safari4+ */
+        background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+        /* Chrome 10+,Safari 5.1+ */
+        background-image: -ms-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+        /* IE10+ */
+        background-image: -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+        /* Opera 11.10+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#e5e5e5', GradientType=0);
+        /* IE6-9 */
+        background-image: linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+        /* W3C */
+      }
+      .nav-justified > .active > a, .nav-justified > .active > a:hover, .nav-justified > .active > a:focus {
+        background-color: #333;
+        background-image: none;
+        box-shadow: inset 0 3px 7px rgba(0, 0, 0, .15);
+      }
+      .nav-justified > li:first-child > a {
+        border-radius: 5px 5px 0 0;
+      }
+      .nav-justified > li:last-child > a {
+        border-bottom: 0;
+        border-radius: 0 0 5px 5px;
+      }
+      @media(min-width: 768px) {
+        .nav-justified {
+          max-height: 52px;
+        }
+        .nav-justified > li > a {
+          border-left: 1px solid #fff;
+          border-right: 1px solid #d5d5d5;
+		  font-size:15px;
+        }
+        .nav-justified > li:first-child > a {
+          border-left: 0;
+          border-radius: 5px 0 0 5px;
+        }
+        .nav-justified > li:last-child > a {
+          border-radius: 0 5px 5px 0;
+          border-right: 0;
+        }
+      }
+      /* Responsive: Portrait tablets and up */
+      @media screen and(min-width: 768px) {
+        /* Remove the padding we set earlier */
+        .masthead, .marketing, .footer {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    </style>
+  </head>
+  
+  <body>
+  <div class="idk">
+  <div class="megacont">
+    <div class="container">
+      <div class="masthead">
+        <h3 class="text-muted" align="center"><img src="logo.png"</h3>
+        <ul class="nav nav-justified">
+          <li class="active">
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="tickets.html">ShowTimes</a>
+          </li>
+          <li>
+            <a href="boxoffice.html">In Theaters</a>
+          </li>
+          <li>
+            <a href="down.html">Downloads</a>
+          </li>
+          <li>
+            <a href="info.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Book Movie Tickets!</h1>
+        <p class="lead">All the movies show available in your City you can Browse, Rate, Book your a favourite movie tickets 
+			right here Easily!</p>
+        <p><a class="btn btn-lg btn-success" href="#">Book Now</a></p>
+      </div>
+	  
+	  
+	  <!----------------------------------------------------carousel---------------------------->
+	  
+	  <div class="carousel slide" id="carousel-234380">
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#carousel-234380">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-234380">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-234380">
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img alt="" src="http://cdn.koimoi.com/wp-content/new-galleries/2013/05/Satyagraha-New-Poster.jpg">
+						<div class="carousel-caption">
+							<h4>
+								First Thumbnail label
+							</h4>
+							<p>
+								A
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" src="http://cdn.koimoi.com/wp-content/new-galleries/2013/07/Shuddh-Desi-Romance-New-movie-Poster-Pic-1.jpg">
+						<div class="carousel-caption">
+							<h4>
+								Second Thumbnail label
+							</h4>
+							<p>
+								B
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" src="http://static.indianexpress.com/m-images/Sat%20Aug%2031%202013,%2015:42%20hrs/M_Id_415249_Akshay_Kumar.jpg">
+						<div class="carousel-caption">
+							<h4>
+								Third Thumbnail label
+							</h4>
+							<p>
+								C
+							</p>
+						</div>
+					</div>
+				</div> <a data-slide="prev" href="#carousel-234380" class="left carousel-control">‹</a> <a data-slide="next" href="#carousel-234380" class="right carousel-control">›</a>
+			</div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  <!------------------------------------------------------->
+	  
+	  
+	  
+	  
+	  
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Box Office</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Your Account</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+          <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Top Songs</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+          <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+      <!--<table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>First Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Michael</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jake</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- Site footer -->
+      <form>
+        <label class="form-label">Login</label>
+        <div class="form-group">
+          <label class="control-label">Username</label>
+          <div class="controls">
+            <input type="text" class="form-control" maxlength="20">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label">Password</label>
+          <div class="controls">
+            <input type="password" class="form-control">
+          </div>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="true">Keep me logged in!</label>
+        </div>
+      </form>
+      <a class="btn btn-primary" href="#">Log in</a><a class="btn btn-primary" href="register.html">Register</a>
+    </div>
+    <!-- /container -->
+    <embed type="application/x-dap-background" id="DAPPlugin" style="visibility: collapse">
+    <footer>
+      <div class="footer" height="75px">
+		<div id="leftfoot" align="left">
+        <p>&copy; Company 2013</p>
+		<p>This a movie ticket booking website,College Project</p>
+      </div>
+		<div id="rightfoot" >
+		<p>Secured Payments:</p>
+		<img src="img/PEPSized_GoogleWallet.png">
+		<img src="img/PEPSized_Maestro.png">
+		<img src="img/PEPSized_PayPal.png">
+		<img src="img/PEPSized_Visa.png">
+		<img src="img/PEPSized_AmericanExpress01.png">
+		<img src="img/PEPSized_EurocardMastercard.png">
+	  </div>
+    </footer>
+</div><!--megacont-->
+</div>
+  </body>
+
+</html>
